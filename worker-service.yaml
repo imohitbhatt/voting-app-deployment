@@ -9,4 +9,6 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-  s
+  selector: 
+    name: worker-app-pod
+    app: demo-voting-app
